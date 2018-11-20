@@ -3,9 +3,5 @@ python:
 - "3.6"
 env: 
 - DJANGO=2.0 DB=postgres
-before_install: 
-- cd prueba123y
-install: 
-- pip install holamundo.py
 script: 
 - python holamundo.py test
